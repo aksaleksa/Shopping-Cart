@@ -1,8 +1,5 @@
-# React + Vite
+The shopping cart is a single page application that allows you to select products from a store page, then checkout and pay. The products are imported from the DummyJSON API. Users can update/delete products from the basket.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The app relies on the react bootstrap library to render many of its components. Also, localStorage saves the basket in case you return later.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+See the <a href="https://friendly-kitsune-978b54.netlify.app/">live version here</a>.
