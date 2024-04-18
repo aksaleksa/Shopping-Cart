@@ -1,0 +1,53 @@
+.navbar {
+    background-color: rgb(182, 250, 255) !important;
+    padding: 20px;
+}
+
+.brand {
+    color: #3636c4;
+}
+
+.brand:hover {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.navbarDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end !important;
+}
+
+.link {
+    color: #3636c4;
+    font-size: 20px;
+}
+
+.link:hover {
+    color: white;
+    background-color: rgb(113, 246, 255);
+    transition: all 0.3s ease;
+}
+
+svg {
+    display: inline;
+    width: 40px;
+    height: auto;
+    margin-right: 20px;
+    filter: invert(14%) sepia(69%) saturate(4551%) hue-rotate(241deg) brightness(100%) contrast(93%);
+}
+
+@media (max-width: 991px) {
+    .navbarDiv {
+        justify-content: flex-start !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar {
+        padding: 10px;
+    }
+    .brand {
+        display: none;
+    }
+}

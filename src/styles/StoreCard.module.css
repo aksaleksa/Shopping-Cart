@@ -1,0 +1,29 @@
+.thumbnail {
+    height: 40%;
+    padding: 0 10%;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heading {
+    font-weight: 600;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10%;
+}
+
+.buy {
+    width: 50%
+}
+
+.quantity {
+    width: 20%;
+}

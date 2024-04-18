@@ -1,0 +1,86 @@
+.heading {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 30px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    width: 70%;
+}
+
+.basket {
+    background-color: rgb(238, 252, 255);
+    width: 30%;
+    height: fit-content;
+    padding: 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+}
+
+.basket h2 {
+    margin: 50px 0;
+    font-weight: 600;
+}
+
+.basket ul {
+    list-style: none;
+    padding: 0;
+}
+
+.basket ul li {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.basket ul button {
+    padding: 4px;
+}
+
+.basket p {
+    margin-bottom: 15px;
+}
+
+.checkoutButton a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 900px) and (min-width: 751px) {
+    .basket ul li {
+        flex-direction: column;
+    }
+
+    .basket ul button {
+        width: 50%;
+    }
+}
+
+@media (max-width: 750px) {
+    .page {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0px;
+    }
+
+    .basket {
+        width: 70%;
+    }
+
+    .basket ul li {
+        flex-direction: row;
+    }
+}
